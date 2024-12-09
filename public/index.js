@@ -1,4 +1,4 @@
-import * as Parser from '/dist/grammar.js';
+import * as Parser from '../dist/grammar.js';
 window.addEventListener('DOMContentLoaded', () => {
     const editableArea = document.getElementById('editable');
     const readonlyArea = document.getElementById('readonly');
